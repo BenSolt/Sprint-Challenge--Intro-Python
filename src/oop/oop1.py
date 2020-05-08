@@ -29,11 +29,16 @@ class GroundVehicle(Vehicle): #base class of car, motorcycle
 
 class Car(GroundVehicle): # Base class - if there are models or makes of cars.
     pass
-class motorcycle(GroundVehicle): # Base class - if there are models or makes of cars.
+class motorcycle(GroundVehicle): # Base class - if there are models or makes of motorcyles.
     pass
 
 #AIR
 
-class FlightVehicle(Vehicle0):
+class FlightVehicle(Vehicle): #Base class of airplane and starship
+    pass
 
-class Airplane(FlightVehicle): #Base class of 
+class Airplane(FlightVehicle): #Base class - if there are models or makes of airplanes
+    pass
+
+class starship(FlightVehicle): #Base class - if there are models or makes of starships
+    pass
