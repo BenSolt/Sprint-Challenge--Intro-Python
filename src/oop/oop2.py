@@ -8,6 +8,8 @@ class GroundVehicle():
         self.num_wheels = num_wheels
 
     # TODO
+    def __drive__(self):
+        return('vroooom')
 
 
 # Subclass Motorcycle from GroundVehicle.
