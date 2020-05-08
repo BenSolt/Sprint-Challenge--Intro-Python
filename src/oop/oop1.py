@@ -21,3 +21,19 @@
 
 class Vehicle: # base Class of everything, - ground, flight, starship
     pass
+
+#GROUND
+
+class GroundVehicle(Vehicle): #base class of car, motorcycle
+    pass
+
+class Car(GroundVehicle): # Base class - if there are models or makes of cars.
+    pass
+class motorcycle(GroundVehicle): # Base class - if there are models or makes of cars.
+    pass
+
+#AIR
+
+class FlightVehicle(Vehicle0):
+
+class Airplane(FlightVehicle): #Base class of 
