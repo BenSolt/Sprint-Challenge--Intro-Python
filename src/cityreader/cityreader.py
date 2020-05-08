@@ -33,9 +33,9 @@ def cityreader(cities=[]):
 
   with open("src/cityreader/cities.csv") as cityfile:
     cityreader = csv.reader(cityfile)
-    for i, row in enumerate(cityreader):
+    for i, x in enumerate(cityreader):
       if i:
-        cities.append(City(row[0], float(row[3]), float(row[4])))
+        cities.append(City(x[0], float(x[3]), float(x[4]))) # City name, Lat, Lon what does [0] mean?
     
     return cities
 
